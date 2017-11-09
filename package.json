@@ -1,0 +1,19 @@
+{
+  "name": "edge-plugin-devserver",
+  "version": "0.0.1",
+  "description": "Tool to help develop edge-plugins",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "bin": {
+    "edge-plugin-devserver": "bin/cmd.js"
+  },
+  "author": "Tim Horton <tim@airbitz.co>",
+  "license": "ISC",
+  "dependencies": {
+    "airbitz-core-js": "git+ssh://git@github.com/Airbitz/airbitz-core-js.git",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2"
+  }
+}
